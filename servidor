@@ -6,6 +6,6 @@ const server =http.createServer((req,res)=>{
   res.setHeader('Content-Type','text/plain');
   res.end('Bienvenidos al sitio web de Grace Angamarca');
 });
-  server.listen(port,()=>{
+  server.listen(port,() => {
   console.log('Server running on port:${port}');
 });
